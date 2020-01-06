@@ -1,0 +1,51 @@
+body{
+    margin: 0 auto;
+}
+*{
+    box-sizing: border-box;
+}
+.titulo{
+    border: 1px solid #B10FCB;
+    text-align: center;
+}
+
+.contenedor{
+    border:solid 1.5px red;
+    height: 250px;
+    margin: 0 auto;
+    width: auto;
+}
+
+.contenedorSecundario{ 
+    border: 1.5px solid rgb(138, 216, 241);
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 72%;
+ 
+}
+aside{
+    border: 1.5px solid greenyellow;
+   
+}
+
+main{
+    border: 1.5px solid blue;
+}
+
+.contenido{
+   text-align: center;  
+}
+
+.subBarra{
+    border:1.5px solid rgb(238, 113, 138);
+    padding: 10px;
+    height: 30%;
+    text-align: center;
+}
+
+.vacio2{
+    border: 1.5px solid plum;
+    height: 70%;
+}
+
+
